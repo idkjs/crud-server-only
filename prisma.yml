@@ -1,0 +1,6 @@
+endpoint: ${env:ENDPOINT}
+stage: default
+datamodel: datamodel.graphql
+
+seed:
+  import: seed.graphql
